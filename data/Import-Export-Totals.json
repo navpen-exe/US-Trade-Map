@@ -1,0 +1,1570 @@
+[
+  {
+    "Country": "TOTAL",
+    "Code": "",
+    "To USA": 3267390000000,
+    "From USA": 2064520000000,
+    "Relative Trade": ""
+  },
+  {
+    "Country": "Afghanistan",
+    "Code": "AFG",
+    "To USA": 22588359,
+    "From USA": 11446788,
+    "Relative Trade": 1.973336014
+  },
+  {
+    "Country": "Albania",
+    "Code": "ALB",
+    "To USA": 128280409,
+    "From USA": 141727893,
+    "Relative Trade": 0.90511759
+  },
+  {
+    "Country": "Algeria",
+    "Code": "DZA",
+    "To USA": 2461611142,
+    "From USA": 1014504109,
+    "Relative Trade": 2.426418109
+  },
+  {
+    "Country": "Andorra",
+    "Code": "AND",
+    "To USA": 3369249,
+    "From USA": 4911141,
+    "Relative Trade": 0.686042001
+  },
+  {
+    "Country": "Angola",
+    "Code": "AGO",
+    "To USA": 1869239166,
+    "From USA": 682352869,
+    "Relative Trade": 2.739402516
+  },
+  {
+    "Country": "Anguilla",
+    "Code": "AIA",
+    "To USA": 1190598,
+    "From USA": 72488329,
+    "Relative Trade": 0.016424685
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "Code": "ATG",
+    "To USA": 23751550,
+    "From USA": 573765998,
+    "Relative Trade": 0.041395883
+  },
+  {
+    "Country": "Argentina",
+    "Code": "ARG",
+    "To USA": 7092161169,
+    "From USA": 9170997286,
+    "Relative Trade": 0.773324967
+  },
+  {
+    "Country": "Armenia",
+    "Code": "ARM",
+    "To USA": 121583116,
+    "From USA": 160783630,
+    "Relative Trade": 0.756190888
+  },
+  {
+    "Country": "Aruba",
+    "Code": "ABW",
+    "To USA": 10704668,
+    "From USA": 725539495,
+    "Relative Trade": 0.01475408
+  },
+  {
+    "Country": "Australia",
+    "Code": "AUS",
+    "To USA": 16685509840,
+    "From USA": 34593348537,
+    "Relative Trade": 0.482332892
+  },
+  {
+    "Country": "Australian Indian Ocean Territories",
+    "Code": "IOA",
+    "To USA": 2847886,
+    "From USA": 4695260,
+    "Relative Trade": 0.606544898
+  },
+  {
+    "Country": "Austria",
+    "Code": "AUT",
+    "To USA": 17572012829,
+    "From USA": 4474205091,
+    "Relative Trade": 3.927404415
+  },
+  {
+    "Country": "Azerbaijan",
+    "Code": "AZE",
+    "To USA": 157776472,
+    "From USA": 255074490,
+    "Relative Trade": 0.618550573
+  },
+  {
+    "Country": "Bahamas",
+    "Code": "BHS",
+    "To USA": 1792373019,
+    "From USA": 5639742401,
+    "Relative Trade": 0.31781115
+  },
+  {
+    "Country": "Bahrain",
+    "Code": "BHR",
+    "To USA": 1204340922,
+    "From USA": 1646230202,
+    "Relative Trade": 0.731575038
+  },
+  {
+    "Country": "Bangladesh",
+    "Code": "BGD",
+    "To USA": 8365766327,
+    "From USA": 2213964142,
+    "Relative Trade": 3.778636776
+  },
+  {
+    "Country": "Barbados",
+    "Code": "BRB",
+    "To USA": 48564639,
+    "From USA": 772603153,
+    "Relative Trade": 0.062858453
+  },
+  {
+    "Country": "Belarus",
+    "Code": "BLR",
+    "To USA": 20048973,
+    "From USA": 10599133,
+    "Relative Trade": 1.891567263
+  },
+  {
+    "Country": "Belgium",
+    "Code": "BEL",
+    "To USA": 27849850475,
+    "From USA": 34177940419,
+    "Relative Trade": 0.814848705
+  },
+  {
+    "Country": "Belize",
+    "Code": "BLZ",
+    "To USA": 81128498,
+    "From USA": 590448355,
+    "Relative Trade": 0.137401514
+  },
+  {
+    "Country": "Benin",
+    "Code": "BEN",
+    "To USA": 48623404,
+    "From USA": 216446069,
+    "Relative Trade": 0.224644431
+  },
+  {
+    "Country": "Bermuda",
+    "Code": "BMU",
+    "To USA": 23328268,
+    "From USA": 540382525,
+    "Relative Trade": 0.043169916
+  },
+  {
+    "Country": "Bhutan",
+    "Code": "BTN",
+    "To USA": 3281048,
+    "From USA": 3427734,
+    "Relative Trade": 0.957206131
+  },
+  {
+    "Country": "Bolivia",
+    "Code": "BOL",
+    "To USA": 504146695,
+    "From USA": 401036421,
+    "Relative Trade": 1.257109501
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Code": "BIH",
+    "To USA": 179089584,
+    "From USA": 52988456,
+    "Relative Trade": 3.37978491
+  },
+  {
+    "Country": "Botswana",
+    "Code": "BWA",
+    "To USA": 405123674,
+    "From USA": 104327456,
+    "Relative Trade": 3.88319326
+  },
+  {
+    "Country": "Brazil",
+    "Code": "BRA",
+    "To USA": 42316323621,
+    "From USA": 49666976323,
+    "Relative Trade": 0.852001204
+  },
+  {
+    "Country": "British Indian Ocean Territory",
+    "Code": "IOT",
+    "To USA": 462491,
+    "From USA": 5464806,
+    "Relative Trade": 0.084630818
+  },
+  {
+    "Country": "British Virgin Islands",
+    "Code": "VGB",
+    "To USA": 60246807,
+    "From USA": 312909554,
+    "Relative Trade": 0.192537448
+  },
+  {
+    "Country": "Brunei",
+    "Code": "BRN",
+    "To USA": 238849306,
+    "From USA": 127213271,
+    "Relative Trade": 1.877550228
+  },
+  {
+    "Country": "Bulgaria",
+    "Code": "BGR",
+    "To USA": 1490134155,
+    "From USA": 489434923,
+    "Relative Trade": 3.044601202
+  },
+  {
+    "Country": "Burkina Faso",
+    "Code": "BFA",
+    "To USA": 4520666,
+    "From USA": 54359393,
+    "Relative Trade": 0.083162555
+  },
+  {
+    "Country": "Burundi",
+    "Code": "BDI",
+    "To USA": 3736684,
+    "From USA": 6613990,
+    "Relative Trade": 0.564966684
+  },
+  {
+    "Country": "Cabo Verde",
+    "Code": "CPV",
+    "To USA": 4482999,
+    "From USA": 12246976,
+    "Relative Trade": 0.366049464
+  },
+  {
+    "Country": "Cambodia",
+    "Code": "KHM",
+    "To USA": 12661806815,
+    "From USA": 321629583,
+    "Relative Trade": 39.36766854
+  },
+  {
+    "Country": "Cameroon",
+    "Code": "CMR",
+    "To USA": 248805280,
+    "From USA": 193064344,
+    "Relative Trade": 1.288716885
+  },
+  {
+    "Country": "Canada",
+    "Code": "CAN",
+    "To USA": 412696000000,
+    "From USA": 348503000000,
+    "Relative Trade": 1.184194188
+  },
+  {
+    "Country": "Cayman Islands",
+    "Code": "CYM",
+    "To USA": 49399550,
+    "From USA": 1286490024,
+    "Relative Trade": 0.038398704
+  },
+  {
+    "Country": "Central African Republic",
+    "Code": "CAF",
+    "To USA": 1422027,
+    "From USA": 35070359,
+    "Relative Trade": 0.040547831
+  },
+  {
+    "Country": "Chad",
+    "Code": "TCD",
+    "To USA": 80814038,
+    "From USA": 59939855,
+    "Relative Trade": 1.348252144
+  },
+  {
+    "Country": "Chile",
+    "Code": "CHL",
+    "To USA": 16469479956,
+    "From USA": 18167793397,
+    "Relative Trade": 0.906520654
+  },
+  {
+    "Country": "China",
+    "Code": "CHN",
+    "To USA": 438947000000,
+    "From USA": 143546000000,
+    "Relative Trade": 3.057892123
+  },
+  {
+    "Country": "Colombia",
+    "Code": "COL",
+    "To USA": 17690348963,
+    "From USA": 19037613407,
+    "Relative Trade": 0.929231442
+  },
+  {
+    "Country": "Comoros",
+    "Code": "COM",
+    "To USA": 1848391,
+    "From USA": 4738928,
+    "Relative Trade": 0.39004412
+  },
+  {
+    "Country": "Cook Islands",
+    "Code": "COK",
+    "To USA": 892119,
+    "From USA": 6861175,
+    "Relative Trade": 0.130024231
+  },
+  {
+    "Country": "Costa Rica",
+    "Code": "CRI",
+    "To USA": 11634905331,
+    "From USA": 9676788152,
+    "Relative Trade": 1.202351973
+  },
+  {
+    "Country": "Côte d`Ivoire",
+    "Code": "CIV",
+    "To USA": 1014676411,
+    "From USA": 596568616,
+    "Relative Trade": 1.700854493
+  },
+  {
+    "Country": "Croatia",
+    "Code": "HRV",
+    "To USA": 1000870837,
+    "From USA": 993902407,
+    "Relative Trade": 1.007011181
+  },
+  {
+    "Country": "Cuba",
+    "Code": "CUB",
+    "To USA": 4869872,
+    "From USA": 586499825,
+    "Relative Trade": 0.00830328
+  },
+  {
+    "Country": "Curaçao",
+    "Code": "CUW",
+    "To USA": 31935945,
+    "From USA": 823501266,
+    "Relative Trade": 0.038780687
+  },
+  {
+    "Country": "Cyprus",
+    "Code": "CYP",
+    "To USA": 58860309,
+    "From USA": 183422678,
+    "Relative Trade": 0.320899845
+  },
+  {
+    "Country": "Czechia",
+    "Code": "CZE",
+    "To USA": 8081908339,
+    "From USA": 4279765621,
+    "Relative Trade": 1.888399752
+  },
+  {
+    "Country": "Democratic Republic of the Congo",
+    "Code": "COD",
+    "To USA": 323100139,
+    "From USA": 253285367,
+    "Relative Trade": 1.275636816
+  },
+  {
+    "Country": "Denmark",
+    "Code": "DNK",
+    "To USA": 10040422224,
+    "From USA": 5807765771,
+    "Relative Trade": 1.728792555
+  },
+  {
+    "Country": "Djibouti",
+    "Code": "DJI",
+    "To USA": 40111250,
+    "From USA": 144982858,
+    "Relative Trade": 0.276662018
+  },
+  {
+    "Country": "Dominica",
+    "Code": "DMA",
+    "To USA": 2306195,
+    "From USA": 58798990,
+    "Relative Trade": 0.039221677
+  },
+  {
+    "Country": "Dominican Republic",
+    "Code": "DOM",
+    "To USA": 7505430838,
+    "From USA": 13081661072,
+    "Relative Trade": 0.573736836
+  },
+  {
+    "Country": "Ecuador",
+    "Code": "ECU",
+    "To USA": 8524306263,
+    "From USA": 7531653753,
+    "Relative Trade": 1.131797417
+  },
+  {
+    "Country": "Egypt",
+    "Code": "EGY",
+    "To USA": 2546000141,
+    "From USA": 6092022475,
+    "Relative Trade": 0.417923629
+  },
+  {
+    "Country": "El Salvador",
+    "Code": "SLV",
+    "To USA": 2311212791,
+    "From USA": 4556353458,
+    "Relative Trade": 0.507250549
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Code": "GNQ",
+    "To USA": 127640788,
+    "From USA": 95379691,
+    "Relative Trade": 1.33823864
+  },
+  {
+    "Country": "Eritrea",
+    "Code": "ERI",
+    "To USA": 852918,
+    "From USA": 37475441,
+    "Relative Trade": 0.022759385
+  },
+  {
+    "Country": "Estonia",
+    "Code": "EST",
+    "To USA": 1065403980,
+    "From USA": 373874186,
+    "Relative Trade": 2.849632363
+  },
+  {
+    "Country": "Eswatini",
+    "Code": "SWZ",
+    "To USA": 22588609,
+    "From USA": 46113517,
+    "Relative Trade": 0.48984789
+  },
+  {
+    "Country": "Ethiopia",
+    "Code": "ETH",
+    "To USA": 465844335,
+    "From USA": 1017706562,
+    "Relative Trade": 0.457739345
+  },
+  {
+    "Country": "Falkland Islands",
+    "Code": "FLK",
+    "To USA": 22756661,
+    "From USA": 4092467,
+    "Relative Trade": 5.560621747
+  },
+  {
+    "Country": "Faroe Islands",
+    "Code": "FRO",
+    "To USA": 249452532,
+    "From USA": 1372159,
+    "Relative Trade": 181.7956461
+  },
+  {
+    "Country": "Fiji",
+    "Code": "FJI",
+    "To USA": 259272473,
+    "From USA": 94679571,
+    "Relative Trade": 2.738420446
+  },
+  {
+    "Country": "Finland",
+    "Code": "FIN",
+    "To USA": 8029516710,
+    "From USA": 2564091906,
+    "Relative Trade": 3.131524534
+  },
+  {
+    "Country": "France",
+    "Code": "FRA",
+    "To USA": 59905089080,
+    "From USA": 43549381762,
+    "Relative Trade": 1.375566923
+  },
+  {
+    "Country": "French Polynesia",
+    "Code": "PYF",
+    "To USA": 40423270,
+    "From USA": 145197570,
+    "Relative Trade": 0.278401836
+  },
+  {
+    "Country": "French Southern and Antarctic Lands",
+    "Code": "ATF",
+    "To USA": 36412,
+    "From USA": 2248567,
+    "Relative Trade": 0.016193425
+  },
+  {
+    "Country": "Gabon",
+    "Code": "GAB",
+    "To USA": 171666854,
+    "From USA": 171065105,
+    "Relative Trade": 1.003517661
+  },
+  {
+    "Country": "Gambia",
+    "Code": "GMB",
+    "To USA": 1969897,
+    "From USA": 80563522,
+    "Relative Trade": 0.024451476
+  },
+  {
+    "Country": "Palestine",
+    "Code": "PSX",
+    "To USA": 6203761,
+    "From USA": 4212034,
+    "Relative Trade": 1.472865841
+  },
+  {
+    "Country": "Georgia",
+    "Code": "GEO",
+    "To USA": 165414171,
+    "From USA": 1736461692,
+    "Relative Trade": 0.095259326
+  },
+  {
+    "Country": "Germany",
+    "Code": "DEU",
+    "To USA": 160437000000,
+    "From USA": 75612902972,
+    "Relative Trade": 2.121814421
+  },
+  {
+    "Country": "Ghana",
+    "Code": "GHA",
+    "To USA": 1171728486,
+    "From USA": 967304543,
+    "Relative Trade": 1.211333591
+  },
+  {
+    "Country": "Greece",
+    "Code": "GRC",
+    "To USA": 2243610292,
+    "From USA": 2613888774,
+    "Relative Trade": 0.858341914
+  },
+  {
+    "Country": "Greenland",
+    "Code": "GRL",
+    "To USA": 32585481,
+    "From USA": 48420782,
+    "Relative Trade": 0.672964782
+  },
+  {
+    "Country": "Grenada",
+    "Code": "GRD",
+    "To USA": 14074818,
+    "From USA": 165335817,
+    "Relative Trade": 0.085128669
+  },
+  {
+    "Country": "Guatemala",
+    "Code": "GTM",
+    "To USA": 5019892412,
+    "From USA": 9714801951,
+    "Relative Trade": 0.516726171
+  },
+  {
+    "Country": "Guinea",
+    "Code": "GIN",
+    "To USA": 6179835,
+    "From USA": 138336186,
+    "Relative Trade": 0.044672585
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Code": "GNB",
+    "To USA": 122848,
+    "From USA": 3394912,
+    "Relative Trade": 0.036185916
+  },
+  {
+    "Country": "Guyana",
+    "Code": "GUY",
+    "To USA": 5375488660,
+    "From USA": 1314930530,
+    "Relative Trade": 4.088040043
+  },
+  {
+    "Country": "Haiti",
+    "Code": "HTI",
+    "To USA": 616770785,
+    "From USA": 1214423999,
+    "Relative Trade": 0.507871045
+  },
+  {
+    "Country": "Heard and McDonald Islands",
+    "Code": "HMD",
+    "To USA": 13589,
+    "From USA": 58879,
+    "Relative Trade": 0.23079536
+  },
+  {
+    "Country": "Honduras",
+    "Code": "HND",
+    "To USA": 5532561721,
+    "From USA": 7057473677,
+    "Relative Trade": 0.783929487
+  },
+  {
+    "Country": "Hong Kong",
+    "Code": "HKG",
+    "To USA": 5972900454,
+    "From USA": 27886366138,
+    "Relative Trade": 0.21418712
+  },
+  {
+    "Country": "Hungary",
+    "Code": "HUN",
+    "To USA": 12703931455,
+    "From USA": 3260923937,
+    "Relative Trade": 3.895807354
+  },
+  {
+    "Country": "Iceland",
+    "Code": "ISL",
+    "To USA": 1072626837,
+    "From USA": 985844921,
+    "Relative Trade": 1.088027959
+  },
+  {
+    "Country": "India",
+    "Code": "IND",
+    "To USA": 87416448578,
+    "From USA": 41752667968,
+    "Relative Trade": 2.093673359
+  },
+  {
+    "Country": "Indonesia",
+    "Code": "IDN",
+    "To USA": 28084737884,
+    "From USA": 10202095720,
+    "Relative Trade": 2.752840069
+  },
+  {
+    "Country": "Iran",
+    "Code": "IRN",
+    "To USA": 6218491,
+    "From USA": 90847430,
+    "Relative Trade": 0.068449828
+  },
+  {
+    "Country": "Iraq",
+    "Code": "IRQ",
+    "To USA": 7422275381,
+    "From USA": 1660554212,
+    "Relative Trade": 4.469757944
+  },
+  {
+    "Country": "Ireland",
+    "Code": "IRL",
+    "To USA": 103286000000,
+    "From USA": 16538031298,
+    "Relative Trade": 6.245377794
+  },
+  {
+    "Country": "Israel",
+    "Code": "ISR",
+    "To USA": 22217484849,
+    "From USA": 14792034960,
+    "Relative Trade": 1.501989747
+  },
+  {
+    "Country": "Italy",
+    "Code": "ITA",
+    "To USA": 76366488191,
+    "From USA": 32402003335,
+    "Relative Trade": 2.356844649
+  },
+  {
+    "Country": "Jamaica",
+    "Code": "JAM",
+    "To USA": 361372579,
+    "From USA": 2644127532,
+    "Relative Trade": 0.136669875
+  },
+  {
+    "Country": "Japan",
+    "Code": "JPN",
+    "To USA": 148209000000,
+    "From USA": 79740845546,
+    "Relative Trade": 1.858627979
+  },
+  {
+    "Country": "Jordan",
+    "Code": "JOR",
+    "To USA": 3364877293,
+    "From USA": 2030784950,
+    "Relative Trade": 1.656934326
+  },
+  {
+    "Country": "Kazakhstan",
+    "Code": "KAZ",
+    "To USA": 2330749420,
+    "From USA": 1077097171,
+    "Relative Trade": 2.163917502
+  },
+  {
+    "Country": "Kenya",
+    "Code": "KEN",
+    "To USA": 737305128,
+    "From USA": 782524079,
+    "Relative Trade": 0.942213981
+  },
+  {
+    "Country": "Kiribati",
+    "Code": "KIR",
+    "To USA": 808162,
+    "From USA": 4220009,
+    "Relative Trade": 0.191507175
+  },
+  {
+    "Country": "Kosovo",
+    "Code": "KOS",
+    "To USA": 34015946,
+    "From USA": 49388369,
+    "Relative Trade": 0.688744064
+  },
+  {
+    "Country": "Kuwait",
+    "Code": "KWT",
+    "To USA": 1643605750,
+    "From USA": 2411831329,
+    "Relative Trade": 0.681476242
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Code": "KGZ",
+    "To USA": 16668370,
+    "From USA": 133144912,
+    "Relative Trade": 0.125189688
+  },
+  {
+    "Country": "Laos",
+    "Code": "LAO",
+    "To USA": 803320155,
+    "From USA": 40385293,
+    "Relative Trade": 19.89140341
+  },
+  {
+    "Country": "Latvia",
+    "Code": "LVA",
+    "To USA": 630724805,
+    "From USA": 545858791,
+    "Relative Trade": 1.155472469
+  },
+  {
+    "Country": "Lebanon",
+    "Code": "LBN",
+    "To USA": 257571987,
+    "From USA": 541421719,
+    "Relative Trade": 0.475732646
+  },
+  {
+    "Country": "Lesotho",
+    "Code": "LSO",
+    "To USA": 237257685,
+    "From USA": 2794513,
+    "Relative Trade": 84.90126365
+  },
+  {
+    "Country": "Liberia",
+    "Code": "LBR",
+    "To USA": 72529569,
+    "From USA": 220400195,
+    "Relative Trade": 0.329081238
+  },
+  {
+    "Country": "Libya",
+    "Code": "LBY",
+    "To USA": 1465562558,
+    "From USA": 567220437,
+    "Relative Trade": 2.583761907
+  },
+  {
+    "Country": "Liechtenstein",
+    "Code": "LIE",
+    "To USA": 243720520,
+    "From USA": 66040890,
+    "Relative Trade": 3.690448751
+  },
+  {
+    "Country": "Lithuania",
+    "Code": "LTU",
+    "To USA": 2011564192,
+    "From USA": 1929089639,
+    "Relative Trade": 1.042753095
+  },
+  {
+    "Country": "Luxembourg",
+    "Code": "LUX",
+    "To USA": 698625976,
+    "From USA": 1136895363,
+    "Relative Trade": 0.614503321
+  },
+  {
+    "Country": "Macau",
+    "Code": "MAC",
+    "To USA": 108792661,
+    "From USA": 275141629,
+    "Relative Trade": 0.395406037
+  },
+  {
+    "Country": "Madagascar",
+    "Code": "MDG",
+    "To USA": 733215493,
+    "From USA": 53407211,
+    "Relative Trade": 13.72877331
+  },
+  {
+    "Country": "Malawi",
+    "Code": "MWI",
+    "To USA": 41054610,
+    "From USA": 26940731,
+    "Relative Trade": 1.523886267
+  },
+  {
+    "Country": "Malaysia",
+    "Code": "MYS",
+    "To USA": 52534847955,
+    "From USA": 27704750827,
+    "Relative Trade": 1.896239684
+  },
+  {
+    "Country": "Maldives",
+    "Code": "MDV",
+    "To USA": 4765289,
+    "From USA": 92612024,
+    "Relative Trade": 0.051454323
+  },
+  {
+    "Country": "Mali",
+    "Code": "MLI",
+    "To USA": 5500278,
+    "From USA": 51496789,
+    "Relative Trade": 0.106808174
+  },
+  {
+    "Country": "Malta",
+    "Code": "MLT",
+    "To USA": 220446394,
+    "From USA": 360821866,
+    "Relative Trade": 0.610956305
+  },
+  {
+    "Country": "Marshall Islands",
+    "Code": "MHL",
+    "To USA": 20448963,
+    "From USA": 127426248,
+    "Relative Trade": 0.160476851
+  },
+  {
+    "Country": "Mauritania",
+    "Code": "MRT",
+    "To USA": 2854898,
+    "From USA": 139755555,
+    "Relative Trade": 0.020427796
+  },
+  {
+    "Country": "Mauritius",
+    "Code": "MUS",
+    "To USA": 234519911,
+    "From USA": 47991040,
+    "Relative Trade": 4.886743671
+  },
+  {
+    "Country": "Mexico",
+    "Code": "MEX",
+    "To USA": 505851000000,
+    "From USA": 334041000000,
+    "Relative Trade": 1.514335231
+  },
+  {
+    "Country": "Micronesia",
+    "Code": "FSM",
+    "To USA": 2440090,
+    "From USA": 50489582,
+    "Relative Trade": 0.048328584
+  },
+  {
+    "Country": "Moldova",
+    "Code": "MDA",
+    "To USA": 136495167,
+    "From USA": 53629683,
+    "Relative Trade": 2.545142156
+  },
+  {
+    "Country": "Monaco",
+    "Code": "MCO",
+    "To USA": 47589664,
+    "From USA": 162798791,
+    "Relative Trade": 0.292321974
+  },
+  {
+    "Country": "Mongolia",
+    "Code": "MNG",
+    "To USA": 26977440,
+    "From USA": 396615463,
+    "Relative Trade": 0.068019133
+  },
+  {
+    "Country": "Montenegro",
+    "Code": "MNE",
+    "To USA": 15382306,
+    "From USA": 27681345,
+    "Relative Trade": 0.555692146
+  },
+  {
+    "Country": "Montserrat",
+    "Code": "MSR",
+    "To USA": 5631794,
+    "From USA": 12071251,
+    "Relative Trade": 0.466546011
+  },
+  {
+    "Country": "Morocco",
+    "Code": "MAR",
+    "To USA": 1904884441,
+    "From USA": 5268646115,
+    "Relative Trade": 0.361551032
+  },
+  {
+    "Country": "Mozambique",
+    "Code": "MOZ",
+    "To USA": 216070589,
+    "From USA": 149698447,
+    "Relative Trade": 1.443372282
+  },
+  {
+    "Country": "Myanmar",
+    "Code": "MMR",
+    "To USA": 656460945,
+    "From USA": 77152222,
+    "Relative Trade": 8.508645999
+  },
+  {
+    "Country": "Namibia",
+    "Code": "NAM",
+    "To USA": 275225098,
+    "From USA": 160506498,
+    "Relative Trade": 1.714728696
+  },
+  {
+    "Country": "Nauru",
+    "Code": "NRU",
+    "To USA": 2238924,
+    "From USA": 916696,
+    "Relative Trade": 2.442384389
+  },
+  {
+    "Country": "Nepal",
+    "Code": "NPL",
+    "To USA": 120461589,
+    "From USA": 120890203,
+    "Relative Trade": 0.996454518
+  },
+  {
+    "Country": "Netherlands",
+    "Code": "NLD",
+    "To USA": 34132810238,
+    "From USA": 89648784899,
+    "Relative Trade": 0.38073924
+  },
+  {
+    "Country": "New Caledonia",
+    "Code": "NCL",
+    "To USA": 33844904,
+    "From USA": 29394518,
+    "Relative Trade": 1.151401904
+  },
+  {
+    "Country": "New Zealand",
+    "Code": "NZL",
+    "To USA": 5617042562,
+    "From USA": 4499719726,
+    "Relative Trade": 1.248309429
+  },
+  {
+    "Country": "Nicaragua",
+    "Code": "NIC",
+    "To USA": 4622325539,
+    "From USA": 2940985161,
+    "Relative Trade": 1.571692914
+  },
+  {
+    "Country": "Niger",
+    "Code": "NER",
+    "To USA": 8306694,
+    "From USA": 43252222,
+    "Relative Trade": 0.192052422
+  },
+  {
+    "Country": "Nigeria",
+    "Code": "NGA",
+    "To USA": 5699175959,
+    "From USA": 4174298267,
+    "Relative Trade": 1.365301566
+  },
+  {
+    "Country": "Niue",
+    "Code": "NIU",
+    "To USA": 4322244,
+    "From USA": 648447,
+    "Relative Trade": 6.665531647
+  },
+  {
+    "Country": "Norfolk Island",
+    "Code": "NFK",
+    "To USA": 191165,
+    "From USA": 80944,
+    "Relative Trade": 2.361694505
+  },
+  {
+    "Country": "North Korea",
+    "Code": "PRK",
+    "To USA": 57465,
+    "From USA": 1528597,
+    "Relative Trade": 0.037593296
+  },
+  {
+    "Country": "North Macedonia",
+    "Code": "MKD",
+    "To USA": 173710793,
+    "From USA": 60635165,
+    "Relative Trade": 2.864852318
+  },
+  {
+    "Country": "Norway",
+    "Code": "NOR",
+    "To USA": 6583376025,
+    "From USA": 4592444161,
+    "Relative Trade": 1.433523369
+  },
+  {
+    "Country": "Oman",
+    "Code": "OMN",
+    "To USA": 1319991529,
+    "From USA": 1954270075,
+    "Relative Trade": 0.675439667
+  },
+  {
+    "Country": "Pakistan",
+    "Code": "PAK",
+    "To USA": 5123656160,
+    "From USA": 2135147106,
+    "Relative Trade": 2.399673608
+  },
+  {
+    "Country": "Palau",
+    "Code": "PLW",
+    "To USA": 2234213,
+    "From USA": 20993953,
+    "Relative Trade": 0.10642174
+  },
+  {
+    "Country": "Panama",
+    "Code": "PAN",
+    "To USA": 555820472,
+    "From USA": 10702134058,
+    "Relative Trade": 0.05193548
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Code": "PNG",
+    "To USA": 79150698,
+    "From USA": 67200220,
+    "Relative Trade": 1.177833912
+  },
+  {
+    "Country": "Paraguay",
+    "Code": "PRY",
+    "To USA": 356152957,
+    "From USA": 3158414426,
+    "Relative Trade": 0.112763212
+  },
+  {
+    "Country": "Peru",
+    "Code": "PER",
+    "To USA": 9363192761,
+    "From USA": 11223803301,
+    "Relative Trade": 0.834226377
+  },
+  {
+    "Country": "Philippines",
+    "Code": "PHL",
+    "To USA": 14177628116,
+    "From USA": 9297313129,
+    "Relative Trade": 1.524916707
+  },
+  {
+    "Country": "Pitcairn Islands",
+    "Code": "PCN",
+    "To USA": 9335,
+    "From USA": 1088006,
+    "Relative Trade": 0.008579916
+  },
+  {
+    "Country": "Poland",
+    "Code": "POL",
+    "To USA": 13688367070,
+    "From USA": 11984988111,
+    "Relative Trade": 1.142126045
+  },
+  {
+    "Country": "Portugal",
+    "Code": "PRT",
+    "To USA": 6588956258,
+    "From USA": 3048429239,
+    "Relative Trade": 2.16142667
+  },
+  {
+    "Country": "Qatar",
+    "Code": "QAT",
+    "To USA": 1834185727,
+    "From USA": 3804248139,
+    "Relative Trade": 0.482141453
+  },
+  {
+    "Country": "Republic of the Congo",
+    "Code": "COG",
+    "To USA": 40200821,
+    "From USA": 237138527,
+    "Relative Trade": 0.16952463
+  },
+  {
+    "Country": "Romania",
+    "Code": "ROU",
+    "To USA": 3905012813,
+    "From USA": 1259281600,
+    "Relative Trade": 3.100984572
+  },
+  {
+    "Country": "Russia",
+    "Code": "RUS",
+    "To USA": 3007500456,
+    "From USA": 526066141,
+    "Relative Trade": 5.716962605
+  },
+  {
+    "Country": "Rwanda",
+    "Code": "RWA",
+    "To USA": 30238416,
+    "From USA": 44757797,
+    "Relative Trade": 0.67560108
+  },
+  {
+    "Country": "Saint Helena",
+    "Code": "SHN",
+    "To USA": 10636649,
+    "From USA": 9016194,
+    "Relative Trade": 1.179727166
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "Code": "KNA",
+    "To USA": 19629242,
+    "From USA": 160188109,
+    "Relative Trade": 0.122538696
+  },
+  {
+    "Country": "Saint Lucia",
+    "Code": "LCA",
+    "To USA": 6955920,
+    "From USA": 1043599900,
+    "Relative Trade": 0.006665313
+  },
+  {
+    "Country": "Saint Pierre and Miquelon",
+    "Code": "SPM",
+    "To USA": 3435723,
+    "From USA": 51169,
+    "Relative Trade": 67.14461881
+  },
+  {
+    "Country": "Saint Vincent and the Grenadines",
+    "Code": "VCT",
+    "To USA": 8263880,
+    "From USA": 143215089,
+    "Relative Trade": 0.057702579
+  },
+  {
+    "Country": "Samoa",
+    "Code": "WSM",
+    "To USA": 5717674,
+    "From USA": 54397476,
+    "Relative Trade": 0.105109178
+  },
+  {
+    "Country": "San Marino",
+    "Code": "SMR",
+    "To USA": 25233029,
+    "From USA": 80023469,
+    "Relative Trade": 0.315320359
+  },
+  {
+    "Country": "São Tomé and Príncipe",
+    "Code": "STP",
+    "To USA": 572291,
+    "From USA": 1021475,
+    "Relative Trade": 0.560259429
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Code": "SAU",
+    "To USA": 12733725159,
+    "From USA": 13177010088,
+    "Relative Trade": 0.966359218
+  },
+  {
+    "Country": "Senegal",
+    "Code": "SEN",
+    "To USA": 235125168,
+    "From USA": 350866605,
+    "Relative Trade": 0.67012695
+  },
+  {
+    "Country": "Serbia",
+    "Code": "SRB",
+    "To USA": 814350544,
+    "From USA": 209859110,
+    "Relative Trade": 3.880463155
+  },
+  {
+    "Country": "Seychelles",
+    "Code": "SYC",
+    "To USA": 7150942,
+    "From USA": 16534260,
+    "Relative Trade": 0.432492413
+  },
+  {
+    "Country": "Sierra Leone",
+    "Code": "SLE",
+    "To USA": 28747850,
+    "From USA": 119859059,
+    "Relative Trade": 0.239847119
+  },
+  {
+    "Country": "Singapore",
+    "Code": "SGP",
+    "To USA": 43203722903,
+    "From USA": 46032645972,
+    "Relative Trade": 0.938545287
+  },
+  {
+    "Country": "Sint Maarten",
+    "Code": "SXM",
+    "To USA": 101535218,
+    "From USA": 753934338,
+    "Relative Trade": 0.134673821
+  },
+  {
+    "Country": "Slovakia",
+    "Code": "SVK",
+    "To USA": 8187354597,
+    "From USA": 552738983,
+    "Relative Trade": 14.8123343
+  },
+  {
+    "Country": "Slovenia",
+    "Code": "SVN",
+    "To USA": 6293037940,
+    "From USA": 332200789,
+    "Relative Trade": 18.9434768
+  },
+  {
+    "Country": "Solomon Islands",
+    "Code": "SLB",
+    "To USA": 1345899,
+    "From USA": 13147232,
+    "Relative Trade": 0.102371282
+  },
+  {
+    "Country": "Somalia",
+    "Code": "SOM",
+    "To USA": 2482732,
+    "From USA": 49123706,
+    "Relative Trade": 0.050540405
+  },
+  {
+    "Country": "South Africa",
+    "Code": "ZAF",
+    "To USA": 14655786588,
+    "From USA": 5818998932,
+    "Relative Trade": 2.518609603
+  },
+  {
+    "Country": "South Korea",
+    "Code": "KOR",
+    "To USA": 131549000000,
+    "From USA": 65541790418,
+    "Relative Trade": 2.00710396
+  },
+  {
+    "Country": "South Sudan",
+    "Code": "SDS",
+    "To USA": 805202,
+    "From USA": 59276702,
+    "Relative Trade": 0.013583785
+  },
+  {
+    "Country": "Spain",
+    "Code": "ESP",
+    "To USA": 21278741242,
+    "From USA": 23910286257,
+    "Relative Trade": 0.889940882
+  },
+  {
+    "Country": "Sri Lanka",
+    "Code": "LKA",
+    "To USA": 3015585462,
+    "From USA": 368214575,
+    "Relative Trade": 8.189750398
+  },
+  {
+    "Country": "Sudan",
+    "Code": "SDN",
+    "To USA": 13133891,
+    "From USA": 56610929,
+    "Relative Trade": 0.232002746
+  },
+  {
+    "Country": "Suriname",
+    "Code": "SUR",
+    "To USA": 90913410,
+    "From USA": 383542932,
+    "Relative Trade": 0.237035811
+  },
+  {
+    "Country": "Sweden",
+    "Code": "SWE",
+    "To USA": 17995672668,
+    "From USA": 8187319415,
+    "Relative Trade": 2.197993233
+  },
+  {
+    "Country": "Switzerland",
+    "Code": "CHE",
+    "To USA": 63425318602,
+    "From USA": 24961986918,
+    "Relative Trade": 2.540876206
+  },
+  {
+    "Country": "Syria",
+    "Code": "SYR",
+    "To USA": 10651468,
+    "From USA": 2020826,
+    "Relative Trade": 5.270848653
+  },
+  {
+    "Country": "Taiwan",
+    "Code": "TWN",
+    "To USA": 116264000000,
+    "From USA": 42336861419,
+    "Relative Trade": 2.746165469
+  },
+  {
+    "Country": "Tajikistan",
+    "Code": "TJK",
+    "To USA": 4633938,
+    "From USA": 56837410,
+    "Relative Trade": 0.081529718
+  },
+  {
+    "Country": "Tanzania",
+    "Code": "TZA",
+    "To USA": 204714855,
+    "From USA": 573380041,
+    "Relative Trade": 0.357031707
+  },
+  {
+    "Country": "Thailand",
+    "Code": "THA",
+    "To USA": 63328180222,
+    "From USA": 17719249485,
+    "Relative Trade": 3.573976442
+  },
+  {
+    "Country": "Timor-Leste",
+    "Code": "TLS",
+    "To USA": 5912676,
+    "From USA": 19021945,
+    "Relative Trade": 0.31083446
+  },
+  {
+    "Country": "Togo",
+    "Code": "TGO",
+    "To USA": 89996365,
+    "From USA": 283592440,
+    "Relative Trade": 0.31734402
+  },
+  {
+    "Country": "Tonga",
+    "Code": "TON",
+    "To USA": 2845246,
+    "From USA": 19909723,
+    "Relative Trade": 0.142907362
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Code": "TTO",
+    "To USA": 3325877971,
+    "From USA": 2939684738,
+    "Relative Trade": 1.13137233
+  },
+  {
+    "Country": "Tunisia",
+    "Code": "TUN",
+    "To USA": 1123215612,
+    "From USA": 503588215,
+    "Relative Trade": 2.230424737
+  },
+  {
+    "Country": "Turkey",
+    "Code": "TUR",
+    "To USA": 16745664057,
+    "From USA": 15292979687,
+    "Relative Trade": 1.094990277
+  },
+  {
+    "Country": "Turkmenistan",
+    "Code": "TKM",
+    "To USA": 14590585,
+    "From USA": 82234419,
+    "Relative Trade": 0.177426741
+  },
+  {
+    "Country": "Turks and Caicos Islands",
+    "Code": "TCA",
+    "To USA": 10983629,
+    "From USA": 713576610,
+    "Relative Trade": 0.015392361
+  },
+  {
+    "Country": "Tuvalu",
+    "Code": "TUV",
+    "To USA": 224447,
+    "From USA": 570424,
+    "Relative Trade": 0.393473977
+  },
+  {
+    "Country": "Uganda",
+    "Code": "UGA",
+    "To USA": 132618139,
+    "From USA": 106292850,
+    "Relative Trade": 1.247667543
+  },
+  {
+    "Country": "Ukraine",
+    "Code": "UKR",
+    "To USA": 1186498293,
+    "From USA": 1683510839,
+    "Relative Trade": 0.704776153
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Code": "ARE",
+    "To USA": 7474432624,
+    "From USA": 26969308978,
+    "Relative Trade": 0.277145871
+  },
+  {
+    "Country": "United Kingdom",
+    "Code": "GBR",
+    "To USA": 68084468332,
+    "From USA": 79941342753,
+    "Relative Trade": 0.851680319
+  },
+  {
+    "Country": "Uruguay",
+    "Code": "URY",
+    "To USA": 1228834152,
+    "From USA": 1649000113,
+    "Relative Trade": 0.745199556
+  },
+  {
+    "Country": "Uzbekistan",
+    "Code": "UZB",
+    "To USA": 42437585,
+    "From USA": 380795484,
+    "Relative Trade": 0.11144456
+  },
+  {
+    "Country": "Vanuatu",
+    "Code": "VUT",
+    "To USA": 13667021,
+    "From USA": 7601059,
+    "Relative Trade": 1.798041694
+  },
+  {
+    "Country": "Vatican City",
+    "Code": "VAT",
+    "To USA": 170599,
+    "From USA": 983390,
+    "Relative Trade": 0.173480511
+  },
+  {
+    "Country": "Venezuela",
+    "Code": "VEN",
+    "To USA": 5987862777,
+    "From USA": 4232021935,
+    "Relative Trade": 1.414894079
+  },
+  {
+    "Country": "Vietnam",
+    "Code": "VNM",
+    "To USA": 136561000000,
+    "From USA": 13098155121,
+    "Relative Trade": 10.42598401
+  },
+  {
+    "Country": "Wallis and Futuna",
+    "Code": "WLF",
+    "To USA": 39214,
+    "From USA": 49438,
+    "Relative Trade": 0.793195518
+  },
+  {
+    "Country": "Yemen",
+    "Code": "YEM",
+    "To USA": 8915258,
+    "From USA": 134099622,
+    "Relative Trade": 0.06648235
+  },
+  {
+    "Country": "Zambia",
+    "Code": "ZMB",
+    "To USA": 169112021,
+    "From USA": 113762941,
+    "Relative Trade": 1.486529968
+  },
+  {
+    "Country": "Zimbabwe",
+    "Code": "ZWE",
+    "To USA": 67833118,
+    "From USA": 43782746,
+    "Relative Trade": 1.54931164
+  }
+]
