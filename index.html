@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>American Foreign Trade</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://unpkg.com/leaflet@1.7.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.7.5/proj4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.js"></script>
+
+    <style>
+
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #map {
+            height: 100vh;  /* map at full heigh and width */
+            width: 100%;   
+        }
+
+        #sidebar {
+            background: #a9a9a9;  /* grey background */
+            height: 100vh;
+            overflow-y: scroll;     /* scroll bar always appears */
+            padding: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #sidebar-specific {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        #legend {
+            margin-top: 20px;
+            background: #ddd;        /* same grey as map background */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        #legend .block {            /* styling for the color blocks in the legend */
+            display:inline-block; 
+            width:20px; 
+            height:15px; 
+            margin-right:5px; 
+            margin-bottom: 5px;
+            border: 1px solid gray;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-3" id="sidebar">
+               
+                <h4> American Foreign Trade </h4>  
+                <p> 
+                    <br/> In 2024, US imports totaled $3.2 trillion 
+                    <br/> while US exports totaled $2.1 trillion
+                </p>
+                <p>
+                    Click on a country to get detailed information!
+                </p>
+                
+                <div id="legend">           <!-- Creates our legend -->
+                    <h6>Trade Balance<br/>(Ratio of Imports and Exports)</h6>
+
+                    <table class="table table-sm"> 
+                        <thead>
+                            <tr>
+                                <th>Net Importers<br/>(from US)</th>        <!-- left column receives more trade -->
+                                <th>Net Exporters<br/>(to US)</th>          <!-- right column sends more trade -->
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>            <!-- Each block gets a color & label, but the rest of the styling has already been done! -->
+                                <td>
+                                    <span class="block" style="background-color:#fee0b6;"></span>
+                                    100%&ndash;200%
+                                </td>
+                                <td>
+                                    <span class="block" style="background-color:#d8daeb;"></span> 
+                                    100%&ndash;150%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="block" style="background-color:#fdb863;"></span> 
+                                    200%&ndash;400%
+                                </td>
+                                <td>
+                                    <span class="block" style="background-color:#b2abd2;"></span> 
+                                    150%&ndash;250%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="block" style="background-color:#e08214;"></span> 
+                                    400%&ndash;1000%
+                                </td>
+                                <td>
+                                    <span class="block" style="background-color:#8073ac;"></span> 
+                                    250%&ndash;400%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="block" style="background-color:#b35806;"></span>
+                                    >1000%
+                                </td>
+                                <td>
+                                    <span class="block" style="background-color:#542788;"></span>  
+                                    >400%
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="sidebar-specific">     
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        
+        var Projection = new L.Proj.CRS('EPSG:4326', '+proj=longlat +datum=WGS84 +no_defs', {
+            resolutions: [                                          // Plate Carree projection
+                0.703125, 0.3515625, 0.17578125, 0.087890625,
+                0.0439453125, 0.02197265625, 0.010986328125,
+                0.0054931640625, 0.00274658203125, 0.001373291015625
+            ]
+        });
+
+
+        var mymap = L.map('map', {
+            crs: Projection,    // change to Plate Carree
+            center: [0, 0], // center the map at Null Island
+            zoom: 1.2, //starting zoom 
+            maxZoom: 11,//max zoom 
+            minZoom: 1,//min zoom 
+        });
+
+
+        mymap.attributionControl.setPrefix('');  // Remove Leaflet default attribution, to replace with the updated attribution
+        mymap.attributionControl.addAttribution(
+            'Trade data from <a href="https://dataweb.usitc.gov">United States International Trade Commission</a> | ' +     // Import/Export data
+            'Country boundaries from <a href="https://www.naturalearthdata.com">Natural Earth</a> | ' +         // shapefile for borders
+            'Made with <a href="https://leafletjs.com">Leaflet</a> and <a href="https://getbootstrap.com">Bootstrap</a> | ' +    // mapping library
+            'Map created by <a href="https://navyapendurkar.wixsite.com/home">Navya Pendurkar</a>'    // Me!!!
+        );   
+	        
+        function Shading(value) {
+            return value < 0.1 ? '#b35806' : 
+                    value < 0.25 ? '#e08214' :          // net importers from USA get oranges
+                    value < 0.5 ? '#fdb863' : 
+                    value < 1 ? '#fee0b6' :             
+                    value > 4 ? '#542788' :             // net exporters to USA get purples
+                    value > 2.5 ? '#8073ac' : 
+                    value > 1.5 ? '#b2abd2' : 
+                    value > 1 ? '#d8daeb' : 
+                    'white';                            // just in case a country is perfectly equal, it gets white (none in the dataset, basically impossible)
+        }
+
+        function Rounding(number) {
+            if (number >= 1_000_000_000_000)
+                return (number / 1_000_000_000_000).toFixed(1).replace(/\.0$/, '') + ' trillion';
+            if (number >= 1_000_000_000) {
+                return (number / 1_000_000_000).toFixed(1).replace(/\.0$/, '') + ' billion';
+            } else if (number >= 1_000_000) {
+                return (number / 1_000_000).toFixed(1).replace(/\.0$/, '') + ' million';
+            } else if (number >= 1_000) {
+                return (number / 1_000).toFixed(1).replace(/\.0$/, '') + ' thousand';
+            } else {
+                return number.toString();
+            }
+        }        
+
+        Promise.all([
+            fetch('data/Country-Boundaries.geojson').then(res => res.json()), // load the files with the ISO codes
+            fetch('data/Import-Export-Totals.json').then(res => res.json()),   // load the import/export totals, also with ISO codes
+            fetch('data/Trade-Categories.json').then(res => res.json())       // load the top 3 import/export categories data, also with ISO codes
+        ]).then(([geojsonData, ImpExpArray, CategoryInfo]) => {
+            const CountryInfo = {};
+            ImpExpArray.forEach(item => {
+                CountryInfo[item.Code] = item;
+            });
+
+            const GeoLayer = MapIt(geojsonData, CountryInfo);
+
+            MouseActions(GeoLayer, CountryInfo, CategoryInfo);
+        });
+        
+        
+        function MapIt(geojsonData, CountryInfo) {
+
+            const GeoLayer = L.geoJson(geojsonData, {          //create "GeoLayer" which will be used later to add the data boxes later
+                style: function (feature) {
+                    var ISO = feature.properties.ADM0_A3;
+                    var location = CountryInfo[ISO];
+
+                    if (ISO == 'USA') {        //Special case for USA
+                        return {
+                            fillColor: '#2ca25f',   // green reminiscent of money, but more saturated
+                            weight: 1,
+                            color: 'gray',
+                            fillOpacity: 0.8
+                        }
+                    }
+                    else if (location) {          // Grabs the ISO code to look up the country
+                        return {
+                            fillColor: Shading(location["Relative Trade"]), //shade the countries based on relative Imports/Exports with USA
+                            weight: 1,
+                            color: 'gray',          //country borders
+                            fillOpacity: 0.8        //opacity of shading color
+                            };
+                    }
+                
+                    else {
+                        return {        //Locations without data
+                            fillColor: '#ccc',   // light grey
+                            weight: 1,
+                            color: 'gray',
+                            fillOpacity: 0.6
+                        };
+                    }
+                }
+            }).addTo(mymap);        // actually make the map
+
+            return GeoLayer;       // we can use "GeoLayer" to make the data boxes now
+        }
+
+        function MouseActions(GeoLayer, CountryInfo, CategoryInfo) {
+            
+            GeoLayer.eachLayer(function (mouse) {                // What to do for each country on a hover or click
+                var ISO = mouse.feature.properties.ADM0_A3;
+                var location = CountryInfo[ISO];
+
+                if (ISO == 'USA') {
+                    mouse.bindTooltip(       // special case for USA, as it has no entry in the Import/Export data 
+                        "United States",
+                        {
+                            sticky: true,
+                            direction: 'top',
+                        }
+                    )
+                    
+                    mouse.on('click', function() {
+                        document.getElementById('sidebar-specific').innerHTML = `
+                            <h5>United States</h5>          <!-- special case for USA -->
+                            <p> 
+                                <strong>Total Exports (to all other countries):</strong><br/> $2.1 trillion <br/>
+                                <strong>Total Imports (from all other countries):</strong><br/> $3.2 trillion
+                            </p>
+
+                            <!-- table showing US imported and exported products -->
+                            <table class="table table-sm"> 
+                                <thead>
+                                    <tr>
+                                        <th>Top Exports</th>
+                                        <th>Top Imports</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span class="small">MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERAL WAXES</span>:<br/>
+                                            $320.1 billion
+                                        </td>
+                                        <td>
+                                            <span class="small">NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF</span>:<br/>
+                                            $521.1 billion
+                                        </td>
+                                    <tr>
+                                        <td>
+                                            <span class="small">NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF</span>:<br/>
+                                            $252.4 billion
+                                        </td>
+                                        <td>
+                                            <span class="small">ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION RECORDERS AND REPRODUCERS, PARTS AND ACCESSORIES</span>:<br/>
+                                            $477.6 billion
+                                        </td>
+                                    <tr>
+                                    <tr>
+                                        <td>
+                                            <span class="small">ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION RECORDERS AND REPRODUCERS, PARTS AND ACCESSORIES</span>:<br/>
+                                            $213.9 billion
+                                        </td>
+                                        <td>
+                                            <span class="small">VEHICLES, OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF</span>:<br/>
+                                            $385.6 billion
+                                        </td>
+                                    <tr>  
+                                </tbody>
+                            </table>
+                            
+                            <table class="table table-sm"> 
+                                <thead>
+                                    <tr>
+                                        <th>Top Exporters to US</th>
+                                        <th>Top Importers from US</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Mexico:<br/>
+                                            $505.9 billion
+                                        </td>
+                                        <td>
+                                            Canada:<br/>
+                                            $348.5 billion
+                                        </td>
+                                    <tr>
+                                        <td>
+                                            China:<br/>
+                                            $438.9 billion
+                                        </td>
+                                        <td>
+                                            Mexico:<br/>
+                                            $334 billion
+                                        </td>
+                                    <tr>
+                                    <tr>
+                                        <td>
+                                            Canada:<br/>
+                                            $412.7 billion
+                                        </td>
+                                        <td>
+                                            China:<br/>
+                                            $143.5 billion
+                                        </td>
+                                    <tr>
+                                    <tr>
+                                        <td>
+                                            Germany:<br/>
+                                            $160.4 billion
+                                        </td>
+                                        <td>
+                                            Netherlands:<br/>
+                                            $89.6 billion
+                                        </td>
+                                    <tr>  
+                                    <tr>
+                                        <td>
+                                            Japan:<br/>
+                                            $148.2 billion
+                                        </td>
+                                        <td>
+                                            United Kingdom:<br/>
+                                            $79.9 billion
+                                        </td>
+                                    <tr>                                                                              
+                                </tbody>
+                            </table>
+                        `; 
+                    });
+                }
+                
+                else if (location) {
+                    mouse.bindTooltip(           // gives the name of the country
+                        location["Country"],
+                        {
+                            sticky: true,
+                            direction: 'top',
+                        }
+                    );
+                
+                    // THE BIG ONE!!
+                    // defines what happens when we click a country
+                    mouse.on('click', function () {
+
+                        const TradeData = CategoryInfo.filter(item => item.Code === ISO);   // filter to only the clicked country
+
+                        document.getElementById('sidebar-specific').innerHTML = `
+                            <h5>${location["Country"]}</h5>
+                            <p>
+                                <strong>Total Exports (to US):</strong> $${Rounding(location["To USA"])}<br/>     <!-- Gets the export and import -->
+                                <strong>Total Imports (from US):</strong> $${Rounding(location["From USA"])}      <!-- totals from Import-Export-Totals -->
+                            </p>                                                                                  <!-- and rounds it -->
+
+                            <table class="table table-sm">          <!-- make a table to display the top 3 categories of exports and imports -->
+                                <thead>                             <!-- advantages of the table: -->
+                                    <tr>                            <!-- category names are not consistent in length, but the table keeps the 3 imports aligned with teh 3 exports -->
+                                        <th>Top Exports</th>        <!-- it looks cleaner -->
+                                        <th>Top Imports</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    ${[0,1,2].map(i => `            <!-- since Trade-Categories has exactly 3 entries for each country -->
+                                        <tr>                        <!-- we can repeat the process 3 times to pull all the entries -->
+                                            <td>
+                                                <span class="small">${TradeData[i]?.["To USA Categories"] || '—'}</span>:<br/>      <!-- because the category names can get long, -->
+                                                $${TradeData[i]?.["Value 2024"] ? Rounding(TradeData[i]["Value 2024"]) : '—'}       <!-- they get made small -->
+                                            </td>
+                                            
+                                            <td>
+                                                <span class="small">${TradeData[i]?.["From USA Categories"] || '—'}</span>:<br/>
+                                                $${TradeData[i]?.["Value 2024__1"] ? Rounding(TradeData[i]["Value 2024__1"]) : '—'}
+                                            </td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        `;
+                    });
+                }
+
+
+                else {
+                    mouse.bindTooltip(           // regions with no data have no entry in the Import/Export data
+                        "No data for this location",        // we can't use the name from the GeoJson, because
+                        {                                   // those names are less consistent
+                            sticky: true,
+                            direction: 'top',
+                        }
+                    )
+                }
+            })
+
+
+        }
+
+
+
+    </script>
+</body>
+</html>
